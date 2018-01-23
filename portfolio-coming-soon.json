@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Pokevue",
+    "subtitle": "",
+    "description": "An online, interactive, animated pokedex built with Vue.js and the PokeAPI.",
+    "projID": "pokevue",
+    "image": "../build/img/rac-screenshot.png",
+    "liveUrl": "https://jessebarkdoll.com/projID",
+    "stack": [ "vuejs", "css3", "atom" ],
+    "gitLink": "",
+    "publicSrc": false
+  }  
+]
