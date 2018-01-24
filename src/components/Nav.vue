@@ -1,44 +1,17 @@
 <template>
-<div>
-  <nav class="sidebar">
+<nav class="sidebar">
   <div class="logo-wrap">
-    <a href="#top"><img class="nav-img" src="img/logo.png" alt="logo" /></a>
+    <router-link href="top"><img class="nav-img" src="img/logo.png" alt="logo" /></router-link>
   </div>
   <ul class="nav-menu">
-    <li><a href="/about">
-      About</a></li>
-    <li><a href="/now">
-      Now</a></li>
-    <li><a href="/portfolio">
-      Portfolio</a></li>
-    <li><a href="/contact">
-      Contact</a></li>
+    <li><router-link :to="{ name: 'about' }">
+      About</router-link></li>
+    <li><router-link :to="{ name: 'now' }">
+      Now</router-link></li>
+    <li><router-link :to="{ name: 'portfolio' }">
+      Portfolio</router-link></li>
+    <li><router-link :to="{ name: 'contact' }">
+      Contact</router-link></li>
   </ul>
 </nav>
-
-<div class="nav-mobile">
-    <input id="nav-toggle" type="checkbox" name="mobile-nav">
-    <label class="nav-toggle" for="nav-toggle">
-      <!-- <div class="logo-wrap mobile">
-        <a href="/"><img class="nav-img" src="img/logo.png" alt="logo" /></a>
-      </div> -->
-      <div class="label-left">Jesse Barkdoll</div>
-      <div class="spinner">
-        <i class="fa fa-bars"></i> MENU</div>
-    </label>
-      <div class="nav-opened">
-        <img src="img/logo.png" class="bg"/>
-        <ul class="nav-menu">
-          <li><a href="#about">
-            About</a></li>
-          <li><a href="#now">
-            Now</a></li>
-          <li><a href="#portfolio">
-            Portfolio</a></li>
-          <li><a href="#contact">
-            Contact</a></li>
-        </ul>
-    </div>
-</div> <!-- nav-mobile -->
-</div> <!-- entire thing has to be one element -->
 </template>

@@ -1,11 +1,10 @@
 <template>
   <app-view>
     <app-sidebar>
-      <app-nav></app-nav>
+      <router-view />
     </app-sidebar>
       <header id="banner"></header>
       <main id="am">
-        <router-view />
       </main>
   </app-view>
 </template>
