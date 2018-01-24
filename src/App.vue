@@ -1,12 +1,16 @@
 <template>
-  <app-view>
-    <app-sidebar>
+  <!-- <app-view> -->
+    <!-- <app-sidebar> -->
+      <div>
+      <Nav />
       <router-view />
-    </app-sidebar>
+    <!-- </app-sidebar> -->
       <header id="banner"></header>
-      <main id="am">
+      <main id="main">
+        ahhhhhhhhhhh
       </main>
-  </app-view>
+      </div>
+  <!-- </app-view> -->
 </template>
 
 <script>

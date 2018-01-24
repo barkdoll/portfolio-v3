@@ -5,7 +5,8 @@
   <h2>Current to-do list:</h2>
   <ul>
     <li>Build and complete freelance web project for client</li>
-    <li>Learn to effectively implement AJAX requests in a front-end application using Vue.js with a data API (project coming soon!)</li>
+    <li>Learn to effectively implement AJAX
+      requests in a front-end application using Vue.js with a data API (project coming soon!)</li>
     <li>Build and deploy a full-stack application</li>
   </ul>
 </article>
