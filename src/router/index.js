@@ -5,6 +5,8 @@ import { About, Now, Portfolio, Contact } from '../components';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
+  hashbang: false,
   routes: [
     {
       path: '/about',

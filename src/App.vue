@@ -1,21 +1,20 @@
 <template>
   <!-- <app-view> -->
     <!-- <app-sidebar> -->
-      <div>
-      <Nav />
-      <router-view />
-    <!-- </app-sidebar> -->
-      <header id="banner"></header>
-      <main id="main">
-        ahhhhhhhhhhh
-      </main>
-      </div>
+  <div>
+    <Nav />
+    <router-view />
+  </div>
   <!-- </app-view> -->
 </template>
 
 <script>
+import Nav from './components/Nav';
 export default {
   name: 'App',
+  components: {
+    Nav
+  }
 };
 </script>
 
